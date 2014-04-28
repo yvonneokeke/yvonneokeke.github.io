@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+	font-size: 18px;
+	font-family: 'Poiret One', cursive;
+	background-image: url('../img/grey_wash_wall.png');
+	background-repeat: repeat;
+	color: #fff;
+}
+
+header {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 50px;
+	padding: 25px 0 25px 40px;
+	color: #000;
+}
+
+h2 {
+	margin-top: 0
+}
+
+h2,
+h3 {
+	font-family: 'Coda Caption', sans-serif;
+	color: #9EE87C;
+}
+
+img.portrait {
+	border: 2px solid white;
+	background-color: #878387;
+	border-radius:20px;
+	box-shadow: 10px 10px 5px #302F30;
+	position: absolute; 
+	right: 0;
+	padding: 25px;
+	margin-right: 50px;
+}
+
+
+a:link {
+	color: yellow
+}
+
+a:visited {
+	color: #F5D50A
+}
+
+a:hover { 
+	color: #000;
+}
+
+section {
+	max-width:489px;
+	margin: 0 0 50px 310px;
+	background-color: #878387;
+	border:2px solid;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #302F30;
+	padding: 25px 
+}
+
+section.pdf img {
+	padding-bottom: 10px;
+}
+
+nav {
+	float: left;
+}
+
+nav ul li {
+	font-size: 30px;
+	display: block;
+	list-style-type:none;
+	width: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+iframe {
+	margin-top: 0;
+}
+
+strong {
+	font-style: italic;
+}
+
+table {
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table tr, table td {
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	padding: 4px 8px;
+}

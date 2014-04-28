@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+	font-size: 18px;
+	font-family: 'Poiret One', cursive;
+	background: #000;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 10px;
+	color: #F21B8A;
+}
+
+h2,
+h3 {
+	font-family: 'Coda Caption', sans-serif;
+	color: #9EE87C;
+}
+
+img {
+	border: 2px solid white;
+	border-radius:20px;
+}
+
+header {
+	float: left;
+	padding: 50px 50px;
+}
+
+a:link {
+	color: yellow
+}
+
+a:hover { 
+	color: #0FBDF2;
+}
+
+section {
+	width:500px;
+	margin: 50px auto;
+	background-color: #6A6A6A;
+	border:2px solid;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 50px 
+}
+
+nav ul {
+	padding-left: 0;
+	display: block;
+}
+
+nav ul li {
+	font-size: 18px;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 2px solid #fff;
+	margin: 0;
+}
+
+nav ul li:last-child {
+	border: none;
+}
+
+.boxed {
+	border: 2px solid;
+	color: #F21B8A;
+	border-radius:25px;
+}
+
+strong {
+	font-style: italic;
+}
+
+table {
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table tr, table td {
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	padding: 4px 8px;
+}
+
+footer nav ul
