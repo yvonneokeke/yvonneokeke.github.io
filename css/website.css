@@ -55,7 +55,7 @@ a:link {
 }
 
 a:visited {
-	color: #F5D50A
+	color: #F5D50A;
 }
 
 a:hover { 
@@ -75,6 +75,11 @@ section {
 
 section.pdf img {
 	padding-bottom: 10px;
+}
+
+#navigation {    
+	position: fixed;   
+	z-index: 10;
 }
 
 nav {
