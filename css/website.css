@@ -97,3 +97,38 @@ table tr, table td {
 	border-left: 1px solid #999;
 	padding: 4px 8px;
 }
+
+@media print {
+	body {
+		font-family: georgia;
+		font-size: 12pt;
+	}
+
+	header,
+	h2,
+	h3 {
+		font-family: georgia;
+		color: #000
+	}
+
+	header { 
+		font-size: 40px;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	section {
+	max-width:489px;
+	margin: 0 50px 50px 50px;
+	background-color: none;
+	border:none;
+	border-radius:25px;
+	box-shadow: none;
+	padding-right: 25px 
+	}
+}
+
