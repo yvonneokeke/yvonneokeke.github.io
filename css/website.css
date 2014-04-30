@@ -27,7 +27,12 @@ header {
 }
 
 h2 {
-	margin-top: 0
+	margin-top: 0;
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
 }
 
 h2,
@@ -35,7 +40,6 @@ h3 {
 	font-family: 'Shadows Into Light', cursive;
 	color: #8BB50D;
 	text-shadow: 2px 2px #302F30;
-	font-size: 40px;
 }
 
 img.portrait {
@@ -121,6 +125,14 @@ table tr, table td {
 		font-family: georgia;
 		font-size: 12pt;
 	}
+	h2 {
+	margin-top: 0;
+	font-size: 20px;
+	}
+
+	h3 {
+	font-size: 15px;
+	}
 
 	header,
 	h2,
@@ -129,8 +141,12 @@ table tr, table td {
 		color: #000
 	}
 
+	header.name {
+		font-size: 50px;
+	}
+
 	header { 
-		font-size: 40px;
+		font-size: 30px;
 		text-align: center;
 		padding-top: 10px;
 	}
