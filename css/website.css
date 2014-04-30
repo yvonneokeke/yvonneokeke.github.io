@@ -170,3 +170,15 @@ table tr, table td {
 	}
 }
 
+@media (max-width: 320px) {
+
+  body {
+    font-size: 24px;
+  }
+
+  ul li {
+    padding: 0.5em 0;
+  }
+
+}
+
