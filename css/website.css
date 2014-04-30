@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
 body {
 	font-size: 18px;
@@ -11,15 +12,18 @@ body {
 }
 
 header.name {
-	font-family: 'Coda Caption', sans-serif;
+	font-family: 'Rock Salt', cursive;
 	font-size: 60px;
+	color: #F5D50A;
+	text-shadow: 3px 3px #302F30;
 }
 
 header {
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 60px;
+	font-size: 70px;
 	padding: 25px 0 25px 40px;
-	color: #000;
+	color: #F5D50A;
+	text-shadow: 2px 2px #302F30;
 }
 
 h2 {
@@ -28,8 +32,10 @@ h2 {
 
 h2,
 h3 {
-	font-family: 'Coda Caption', sans-serif;
-	color: #9EE87C;
+	font-family: 'Shadows Into Light', cursive;
+	color: #ccc;
+	text-shadow: 2px 2px #302F30;
+	font-size: 40px;
 }
 
 img.portrait {
@@ -55,6 +61,7 @@ a:visited {
 a:hover { 
 	color: #000;
 }
+
 
 section {
 	max-width:489px;
